@@ -10,6 +10,17 @@ window.addEventListener('scroll' , function(){
       }
 })
 
+//Typing animation
+
+let typed = new Typed(".typing" ,{
+    strings : ["QA Automation Engineer..." , "Freelancer..." , "Web Developer..."],
+    typeSpeed : 100,
+    backSpeed : 60,
+    loop : true
+  })
+
+
+
 
 $(document).ready(function(){
     // $(window).scroll(function(){

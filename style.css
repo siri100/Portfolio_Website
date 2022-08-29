@@ -75,15 +75,32 @@ color: crimson;
 
 .home{
     display: flex;
-    background: url('./images/banner-sam.png') no-repeat  center;
-    background-size: cover;
-    background-attachment: fixed;
+    /* background: url('./images/banner-sam.png') no-repeat  center; */
+    /* background-size: cover;
+    background-attachment: fixed; */
     height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: "Ubuntu", sans-serif;
+  
 }
-
+#myVideo{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    top: -15%; 
+    left: -30%;
+    size: 100;
+    z-index: -1;
+}
+/* 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  } */
 .home .max-width{
     margin: auto 0 auto 40px;
 }
@@ -163,7 +180,9 @@ section .title::after{
 }
 
 /* about section styling */
-
+.about{
+    background: #fff;
+}
 
 
 .about .title::after{
@@ -258,7 +277,9 @@ section .title::after{
 }
 
 /* Skills section styling */
-
+.skills{
+    background: #fff;
+}
 .skills .title::after{
    content: "What i Know";
 }

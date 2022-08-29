@@ -24,6 +24,8 @@
 .navbar.sticky{
     background: crimson;
     padding: 15px 0;
+    opacity: 0.8;
+    
 }
 .navbar .max-width{
     display: flex;
@@ -376,10 +378,39 @@ footer{
 }
 .name-footer{
     font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-
+/* Custom Styling for me */
+.nuo
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 18px;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgb(60, 57, 82),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.nuo:hover
+{
+    box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15);  
+}
+.nuo:hover span
+{
+    display: inline-block;
+    transform: scale(0.98);
+}
 
 
 /* Responsive medea starts here */

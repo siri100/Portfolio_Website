@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siri100/Portfolio_Website.git"
+  },
+  "author": "Srinivas Madnal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siri100/Portfolio_Website/issues"
+  },
+  "homepage": "https://github.com/siri100/Portfolio_Website#readme",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}

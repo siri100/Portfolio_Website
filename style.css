@@ -51,13 +51,14 @@ color: crimson;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    cursor: pointer;
     transition: color 0.3 ease;
 }
 .navbar .menu li a:hover{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #111
 }
 
 /* menu btn styling */
@@ -332,6 +333,54 @@ section .title::after{
 .skills .skills-content .right .st::before{
     width: 90%;
 }
+
+
+
+
+/* footer styling*/
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.social-links a{
+    border: 2px solid #111;
+    color:crimson;
+    display: block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+    background: #fff;
+    color: #111;
+}
+.footer span{
+    margin-top: 1rem;
+    display: block;
+    font-family: var(--Playfair);
+    letter-spacing: 2px;
+}
+.name-footer{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+
+
 
 /* Responsive medea starts here */
 @media (max-width : 1300px) {

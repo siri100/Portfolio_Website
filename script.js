@@ -19,12 +19,11 @@ window.addEventListener('scroll', function () {
 //Typing animation
 
 let typed = new Typed(".typing", {
-    strings: ["QA Automation Engineer...", "Freelancer...", "Web Developer..."],
+    strings: ["QA Automation Consultant...", "Web Developer...", "Automation Framework Architect...", "Freelance Tester...", "CI/CD Specialist...", "Agile Team Player...", "Automation Framework Architect...", "Performance Tester..."],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
-})
-
+});
 
 // Button scrolling
 abtBtn.addEventListener('click', function (e) {

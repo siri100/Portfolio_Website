@@ -8,7 +8,7 @@ export const About = () => (
     <div className="grid md:grid-cols-2 gap-12 items-center">
       <div>
         <img
-          src="/images/dp3.jpg"
+          src="images/dp3.jpg"
           alt="Portrait of Srinivas Madnal"
           className="rounded-xl w-full max-w-sm mx-auto shadow-lg shadow-teal-500/10 ring-1 ring-teal-500/20"
           loading="lazy"
